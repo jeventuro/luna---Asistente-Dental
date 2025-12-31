@@ -1,5 +1,19 @@
+// frontend/services/geminiService.ts
+export class LunaService {
+  async sendMessage(message: string): Promise<string> {
+    return `Gracias por tu mensaje 😊  
+Puedo ayudarte con información sobre tratamientos, precios y horarios.
 
-import { GoogleGenAI, Chat, GenerateContentResponse } from "@google/genai";
+Para una atención más detallada, pronto podré conectarte con nuestro equipo clínico. 🦷✨`;
+  }
+}
+
+export const lunaService = new LunaService();
+
+
+
+
+/*import { GoogleGenAI, Chat, GenerateContentResponse } from "@google/genai";
 import { SYSTEM_PROMPT } from "../constants";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
@@ -29,4 +43,4 @@ export class LunaService {
   }
 }
 
-export const lunaService = new LunaService();
+export const lunaService = new LunaService();*/
