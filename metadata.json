@@ -1,0 +1,8 @@
+
+{
+  "name": "Luna - Asistente Dental",
+  "description": "Una asistente virtual inteligente y empática diseñada para clínicas dentales, capaz de gestionar triaje, captación de leads y consultas generales utilizando Gemini.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
